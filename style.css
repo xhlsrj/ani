@@ -1,0 +1,29 @@
+body {
+  font-family: 'Fira Code', 'Source Code Variable', Consolas, 'Courier New', monospace;
+  font-size: 16px;
+}
+
+footer {
+  height: 30vh;
+}
+
+li {
+  padding: 1rem;
+  border-bottom: 1px solid #AAA;
+}
+
+li:hover {
+  background-color: skyblue;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.name-box {
+  width: 40rem;
+}
+
+.date-box {
+  width: 20rem;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ani",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xhlsrj/ani.git",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.7.3"
+  }
+}
