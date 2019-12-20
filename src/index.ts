@@ -1,63 +1,25 @@
 import data from './data.js';
 
-function sortByName(arr: Array<Ani>): Array<Ani> {
-  return arr.sort((a: Ani, b: Ani) => {
-    return a.names[0] < b.names[0] ? -1 : 1;
-  });
-}
+import { $id } from './utils.js';
+import { currentFilter, buildFilter } from './filter.js';
+import { createList, updateList } from './list.js';
 
-function createElement(tag: string): HTMLElement {
-  return document.createElement(tag);
-}
+const list: Array<HTMLLIElement> = createList(data);
 
-function createItem(item, index): HTMLElement {
-  const name: HTMLElement = document.createElement(`span`);
-  name.classList.add(`dib`, `name-box`);
-  name.textContent = item.names[index];
+buildFilter($id(`filter`));
 
-  const date: HTMLElement = createElement(`span`);
-  date.classList.add(`dib`, `date-box`);
-  date.textContent = item.dates[index];
+const observer: MutationObserver = new MutationObserver((mutions, observer) => {
+  console.log(`mu`);
 
-  const div: HTMLElement = createElement(`div`);
-  div.appendChild(name);
-  div.appendChild(date);
-
-  return div;
-}
-
-function createList(data: Array<Ani>): Array<HTMLElement> {
-  const list: Array<HTMLElement> = data.map((item: Ani) => {
-    const div: HTMLElement = createItem(item, 0);
-
-    const li: HTMLElement = createElement(`li`);
-    li.appendChild(div);
-
-    if (item.names.length > 1) {
-      for (let i = 1; i < item.names.length; i++) {
-        const div = createItem(item, i);
-        li.appendChild(div);
-      }
+  mutions.forEach((mution) => {
+    if (mution.type === `characterData`) {
+      updateList(list, mution.target.textContent);
     }
-    return li;
   });
-  return list;
-}
+});
 
-function updateList(
-  ol: HTMLElement,
-  list: Array<HTMLElement>,
-  main: HTMLElement,
-): void {
-  ol.innerHTML = ``;
-  for (let i = 0; i < list.length; i++) {
-    ol.appendChild(list[i]);
-  }
-  main.appendChild(ol);
-}
-
-const ol: HTMLElement = document.createElement(`ol`);
-const list: Array<HTMLElement> = createList(sortByName(data));
-const main: HTMLElement = document.getElementsByTagName(`main`).item(0);
-
-updateList(ol, list, main);
+observer.observe(currentFilter, {
+  childList: false,
+  attributes: false,
+  characterData: true,
+});

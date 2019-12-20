@@ -4,10 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/xhlsrj/ani.git",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "server": "node server.js"
   },
   "dependencies": {
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0",
     "typescript": "next"
   }
 }

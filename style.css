@@ -1,6 +1,26 @@
 body {
-  font-family: 'Fira Code', 'Source Code Variable', Consolas, 'Courier New', monospace;
+  font-family: 'Fira Code', 'Source Code Variable', Consolas, 'Courier New',
+    monospace;
   font-size: 16px;
+}
+
+#filter {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 6rem;
+  margin-right: 2rem;
+}
+#filter > div {
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.filter-type {
+  background-color: burlywood;
+}
+.filter-item {
+  background-color: sandybrown;
 }
 
 footer {
@@ -9,15 +29,19 @@ footer {
 
 li {
   padding: 1rem;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #aaa;
 }
 
 li:hover {
-  background-color: skyblue;
+  background: linear-gradient(0deg, skyblue, white 1rem);
 }
 
 .dib {
   display: inline-block;
+}
+
+.dn {
+  display: none;
 }
 
 .name-box {
