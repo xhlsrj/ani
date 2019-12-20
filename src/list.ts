@@ -46,25 +46,33 @@ export function createList(data: Array<Ani>): Array<HTMLLIElement> {
 
 export function updateList(list: Array<HTMLLIElement>, filter: string): void {
   list.forEach((li) => {
-    li.classList.remove(`dn`);
+    let classname = ``;
     switch (filter) {
       case `General`:
-        filter = `ignore`;
-        if (li.classList.contains(filter)) {
+        classname = `ignore`;
+        if (li.classList.contains(classname)) {
           li.classList.add(`dn`);
+        } else {
+          li.classList.remove(`dn`);
         }
         break;
       case `Nice`:
-        filter = `nice`;
-        if (li.classList.contains(filter)) {
+        classname = `nice`;
+        if (li.classList.contains(classname)) {
           li.classList.remove(`dn`);
+        } else {
+          li.classList.add(`dn`);
         }
       case `Favour`:
-        filter = `favour`;
-        if (li.classList.contains(filter)) {
+        classname = `favour`;
+        if (li.classList.contains(classname)) {
           li.classList.remove(`dn`);
+        } else {
+          li.classList.add(`dn`);
         }
         break;
+      default:
+        li.classList.remove(`dn`);
     }
   });
 }

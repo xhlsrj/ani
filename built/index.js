@@ -5,15 +5,14 @@ import { createList, updateList } from './list.js';
 const list = createList(data);
 buildFilter($id(`filter`));
 const observer = new MutationObserver((mutions, observer) => {
-    console.log(`mu`);
     mutions.forEach((mution) => {
-        if (mution.type === `characterData`) {
+        if (mution.type === `childList`) {
             updateList(list, mution.target.textContent);
         }
     });
 });
 observer.observe(currentFilter, {
-    childList: false,
+    childList: true,
     attributes: false,
-    characterData: true,
+    characterData: false,
 });
