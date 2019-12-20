@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "built",
+    "removeComments": true,
     "target": "ESNEXT"
   },
   "include": ["src"]

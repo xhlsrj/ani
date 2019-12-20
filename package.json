@@ -8,6 +8,6 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "typescript": "^3.7.3"
+    "typescript": "next"
   }
 }
