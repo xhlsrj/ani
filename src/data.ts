@@ -1,8 +1,4 @@
-class Ani {
-  names: Array<string>;
-  dates: Array<string>;
-  tag?: Array<string>;
-}
+/// <reference path="../types/index.d.ts" />
 
 const data: Array<Ani> = [
   {

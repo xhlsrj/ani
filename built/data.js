@@ -1,5 +1,3 @@
-class Ani {
-}
 const data = [
     {
         names: [`[C]THE MONEY OF SOUL AND POSSIBILITY CONTROL`],
