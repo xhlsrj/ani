@@ -63,6 +63,7 @@ export function updateList(list: Array<HTMLLIElement>, filter: string): void {
         } else {
           li.classList.add(`dn`);
         }
+        break;
       case `Favour`:
         classname = `favour`;
         if (li.classList.contains(classname)) {
