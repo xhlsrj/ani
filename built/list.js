@@ -58,6 +58,7 @@ export function updateList(list, filter) {
                 else {
                     li.classList.add(`dn`);
                 }
+                break;
             case `Favour`:
                 classname = `favour`;
                 if (li.classList.contains(classname)) {
