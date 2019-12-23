@@ -47,7 +47,6 @@ li:hover {
   border-color: white;
 }
 li:hover::after {
-  width: calc(100% + 2rem);
   background-image: linear-gradient(90deg, purple, skyblue);
 }
 
