@@ -248,6 +248,13 @@ const data: Array<Ani> = [
     rate: `S`,
   },
   {
+    names: [`女子高生の無駄づかい`],
+    dates: [`2019.07.05`],
+    tags: [`favour`],
+    rate: `S`,
+  },
+  // A
+  {
     names: [`ALDNOAH.ZERO`, `2季`],
     dates: [`2014.07.06`, `2015.01.10`],
     tags: [`nice`],
@@ -458,6 +465,7 @@ const data: Array<Ani> = [
     rate: `A`,
   },
   { names: [`龙与虎`], dates: [`2008.10.02`], tags: [`nice`], rate: `A` },
+  // B
   {
     names: [`[C]THE MONEY OF SOUL AND POSSIBILITY CONTROL`],
     dates: [`2011.04.14`],
@@ -1341,6 +1349,22 @@ const data: Array<Ani> = [
   { names: [`黒執事`, `+`], dates: [`2008.10.02`, ``], tags: [] },
   { names: [`黒塚-KUROZUKA-`], dates: [`2008.10.07`], tags: [] },
   { names: [`龙之界点`], dates: [`2011.01.10`], tags: [] },
+  {
+    names: [
+      `ジョジョの奇妙な冒険`,
+      `スターダストクルセイダース (星辰远征军) + (埃及篇)`,
+      `+ ダイヤモンドは砕けない (不灭钻石)`,
+      `+ 黄金の風`,
+    ],
+    dates: [
+      `2012.10.05`,
+      `2014.04.04 + 2015.01.09`,
+      `2016.03.31`,
+      `2018.10.06`,
+    ],
+    tags: [],
+  },
+  // C
   {
     names: [`Q弟侦探因幡`],
     dates: [`2013.01.04`],
