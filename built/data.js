@@ -462,6 +462,7 @@ const data = [
         rate: `A`,
     },
     { names: [`龙与虎`], dates: [`2008.10.02`], tags: [`nice`], rate: `A` },
+    { names: [`DEATH NOTE`], dates: [`2006.10.03`], tags: [`nice`], rate: `A` },
     {
         names: [`[C]THE MONEY OF SOUL AND POSSIBILITY CONTROL`],
         dates: [`2011.04.14`],
