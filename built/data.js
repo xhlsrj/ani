@@ -334,13 +334,14 @@ const data = [
     },
     { names: [`六花の勇者`], dates: [`2015.07.04`], tags: [`nice`], rate: `A` },
     {
-        names: [`刀剑神域`, `Extra`, `Ⅱ`, `劇場版 (-序列之争-)`, `Alicization`],
+        names: [`刀剑神域`, `Extra`, `Ⅱ`, `劇場版 (-序列之争-)`, `Alicization`, `Alicization 2`],
         dates: [
             `2012.07.07`,
             `2013.12.31`,
             `2014.07.05`,
             `2017.09.15`,
             `2018.10.07`,
+            `2019.10.06`,
         ],
         tags: [`nice`],
         rate: `A`,
@@ -463,6 +464,12 @@ const data = [
     },
     { names: [`龙与虎`], dates: [`2008.10.02`], tags: [`nice`], rate: `A` },
     { names: [`DEATH NOTE`], dates: [`2006.10.03`], tags: [`nice`], rate: `A` },
+    {
+        names: [`ようこそ実力至上主義の教室へ`],
+        dates: [`2017.07.12`],
+        tags: [`nice`],
+        rate: `A`,
+    },
     {
         names: [`[C]THE MONEY OF SOUL AND POSSIBILITY CONTROL`],
         dates: [`2011.04.14`],
@@ -667,7 +674,15 @@ const data = [
         tags: [],
     },
     { names: [`TRIGUN`], dates: [`1998.04.01`], tags: [] },
-    { names: [`TRINITY SEVEN`], dates: [`2014.10.07`], tags: [] },
+    {
+        names: [
+            `TRINITY SEVEN`,
+            `劇場版 -悠久図書館と錬金術少女-`,
+            `+ 劇場版 -天空図書館と真紅の魔王-`,
+        ],
+        dates: [`2014.10.07`, `2017.02.25`, `2019.03.29`],
+        tags: [],
+    },
     { names: [`T宝的悲惨日常 + `], dates: [``], tags: [] },
     {
         names: [`UN-GO + 日记短片 + episode:0 因果论`],
