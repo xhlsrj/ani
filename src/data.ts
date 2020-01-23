@@ -337,7 +337,14 @@ const data: Array<Ani> = [
   },
   { names: [`六花の勇者`], dates: [`2015.07.04`], tags: [`nice`], rate: `A` },
   {
-    names: [`刀剑神域`, `Extra`, `Ⅱ`, `劇場版 (-序列之争-)`, `Alicization`, `Alicization 2`],
+    names: [
+      `刀剑神域`,
+      `Extra`,
+      `Ⅱ`,
+      `劇場版 (-序列之争-)`,
+      `Alicization`,
+      `Alicization 2`,
+    ],
     dates: [
       `2012.07.07`,
       `2013.12.31`,
@@ -682,7 +689,7 @@ const data: Array<Ani> = [
     names: [
       `TRINITY SEVEN`,
       `劇場版 -悠久図書館と錬金術少女-`,
-      `+ 劇場版 -天空図書館と真紅の魔王-`,
+      `劇場版 -天空図書館と真紅の魔王-`,
     ],
     dates: [`2014.10.07`, `2017.02.25`, `2019.03.29`],
     tags: [],
@@ -1380,6 +1387,10 @@ const data: Array<Ani> = [
     ],
     tags: [],
   },
+  { names: [`平凡职业造就世界最强`], dates: [`2019.07.08`], tags: [] },
+  { names: [`落第騎士の英雄譚`], dates: [`2015.10.03`], tags: [] },
+  { names: [`賢者の孫`], dates: [`2019.04.10`], tags: [] },
+  { names: [`盾の勇者の成り上がり`], dates: [`2019.01.09`], tags: [] },
   // C
   {
     names: [`Q弟侦探因幡`],
