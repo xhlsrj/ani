@@ -255,6 +255,19 @@ const data: Array<Ani> = [
   },
   // A
   {
+    names: [`それでも町は廻っている (女仆咖啡厅)`],
+    dates: [`2010.10.07`],
+    tags: [`nice`],
+    rate: `A`,
+  },
+  { names: [`Dr.STONE`], dates: [`2019.07.05`], tags: [`nice`], rate: `A` },
+  {
+    names: [`はたらく細胞`, `特別編`],
+    dates: [`2018.07.07`, `2018.12.26`],
+    tags: [`nice`],
+    rate: `A`,
+  },
+  {
     names: [`ALDNOAH.ZERO`, `2季`],
     dates: [`2014.07.06`, `2015.01.10`],
     tags: [`nice`],
@@ -481,6 +494,20 @@ const data: Array<Ani> = [
     rate: `A`,
   },
   // B
+  { names: [`禁忌咒纹`], dates: [`2016.07.04`], tags: [] },
+  {
+    names: [`鋼の錬金術師`, `+`, `+ 鋼の錬金術師 FULLMETAL ALCHEMIST`],
+    dates: [`2003.10.04`, ``, ``],
+    tags: [],
+  },
+  {
+    names: [`探偵チームKZ（カッズ）事件ノート`],
+    dates: [`2015.10.07`],
+    tags: [],
+  },
+  { names: [`宝石の国`], dates: [`2017.10.07`], tags: [] },
+  { names: [`どろろ`], dates: [`2019.01.06`], tags: [] },
+  { names: [`鬼滅の刃`, `+`], dates: [`2019.04.06`, ``], tags: [] },
   {
     names: [`[C]THE MONEY OF SOUL AND POSSIBILITY CONTROL`],
     dates: [`2011.04.14`],
