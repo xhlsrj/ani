@@ -252,6 +252,19 @@ const data = [
         rate: `S`,
     },
     {
+        names: [`ゼロから始める魔法の書`],
+        dates: [`2017.04.10`],
+        tags: [`nice`],
+        rate: `A`,
+    },
+    {
+        names: [`一拳超人 + OVA`, `+ OAD`, `2季`, `+ OVA`],
+        dates: [`2015.10.04`, ``, `2019.04.02`, ``],
+        tags: [`nice`],
+        rate: `A`,
+    },
+    { names: [`黑色残骸`], dates: [`2016.04.07`], tags: [`nice`], rate: `A` },
+    {
         names: [`それでも町は廻っている (女仆咖啡厅)`],
         dates: [`2010.10.07`],
         tags: [`nice`],
@@ -490,10 +503,16 @@ const data = [
         tags: [`nice`],
         rate: `A`,
     },
+    { names: [`发条精灵战记 天镜的极北之星`], dates: [`2016.07.09`], tags: [] },
     { names: [`禁忌咒纹`], dates: [`2016.07.04`], tags: [] },
     {
-        names: [`鋼の錬金術師`, `+`, `+ 鋼の錬金術師 FULLMETAL ALCHEMIST`],
-        dates: [`2003.10.04`, ``, ``],
+        names: [
+            `鋼の錬金術師`,
+            `香巴拉的征服者`,
+            `+ 鋼の錬金術師 FULLMETAL ALCHEMIST`,
+            `+`,
+        ],
+        dates: [`2003.10.04`, `2005.07.23`, ``, ``],
         tags: [],
     },
     {
