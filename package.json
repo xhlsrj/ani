@@ -10,8 +10,8 @@
     "server": "node server.js"
   },
   "dependencies": {
-    "koa": "^2.11.0",
-    "koa-static": "^5.0.0",
+    "koa": "latest",
+    "koa-static": "latest",
     "typescript": "next"
   }
 }
