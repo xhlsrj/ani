@@ -1,4 +1,4 @@
-const data = [
+const S = [
     {
         names: [`ARIA The ANIMATION`, `The NATURAL`, `The OVA ARIETTA`, `The ORIGINATION`, `The AVVENIRE`],
         dates: [`2005.10.05`, `2006.04.02`, `2007.09.21`, `2008.01.07`, `2015.09.26`],
@@ -207,6 +207,16 @@ const data = [
         tags: [`favour`],
         rate: `S`,
     },
+];
+const A = [
+    { names: [`樱花任务`], dates: [`2017.04.05`], tags: [`nice`], rate: `A` },
+    {
+        names: [`紫罗兰永恒花园`, `外伝 -永遠と自動手記人形-`],
+        dates: [`2018.01.10`, `2019.09.06`],
+        tags: [`nice`],
+        rate: `A`,
+    },
+    { names: [`月色真美`, `SP`], dates: [`2017.04.06`, `2017.09.27`], tags: [`nice`], rate: `A` },
     { names: [`Re:CREATORS`], dates: [`2017.04.08`], tags: [`nice`], rate: `A` },
     {
         names: [`ゼロから始める魔法の書`],
@@ -438,6 +448,15 @@ const data = [
         tags: [`nice`],
         rate: `A`,
     },
+];
+const B = [
+    { names: [`お酒は夫婦になってから`], dates: [`2017.10.03`], tags: [] },
+    { names: [`潘朵拉之心`], dates: [`2009.04.02`], tags: [] },
+    { names: [`うらら迷路帖`], dates: [`2017.01.05`], tags: [] },
+    { names: [`爱丽丝与藏六`], dates: [`2017.04.02`], tags: [] },
+    { names: [`NEW GAME!`, `OVA`, `!!`], dates: [`2016.07.04`, `2017.04.30`, `2017.07.11`], tags: [] },
+    { names: [`猫咪日常`], dates: [`2017.01.08`], tags: [] },
+    { names: [`十二大戦`], dates: [`2017.10.03`], tags: [] },
     { names: [`战斗女子高校`], dates: [`2017.07.02`], tags: [] },
     { names: [`无畏魔女` + `OVA`], dates: [`2016.10.06`, `2017.05.13`], tags: [] },
     { names: [`異世界食堂`], dates: [`2017.07.03`], tags: [] },
@@ -869,8 +888,14 @@ const data = [
     { names: [`噬血狂袭`, `+`], dates: [`2013.10.04`, ``], tags: [] },
     { names: [`四月は君の嘘 + OAD`], dates: [`2014.10.09`], tags: [] },
     {
-        names: [`在地下城寻求邂逅是否搞错了什么`, `外伝 ソード・オラトリア (剑姬神圣谭)`, `2季`],
-        dates: [`2015.04.03`, `2017.04.14`, `2019.07.13`],
+        names: [
+            `在地下城寻求邂逅是否搞错了什么`,
+            `外伝 ソード・オラトリア (剑姬神圣谭)`,
+            `+ 劇場版 -オリオンの矢-`,
+            `2季`,
+            `3季`,
+        ],
+        dates: [`2015.04.03`, `2017.04.14`, `2019.02.15`, `2019.07.12`, `2020.10.02`],
         tags: [],
     },
     { names: [`地狱幼稚园`], dates: [`2013.01.11`], tags: [] },
@@ -1306,6 +1331,8 @@ const data = [
     { names: [`落第騎士の英雄譚`], dates: [`2015.10.03`], tags: [] },
     { names: [`賢者の孫`], dates: [`2019.04.10`], tags: [] },
     { names: [`盾の勇者の成り上がり`], dates: [`2019.01.09`], tags: [] },
+];
+const C = [
     {
         names: [`Q弟侦探因幡`],
         dates: [`2013.01.04`],
@@ -1320,4 +1347,5 @@ const data = [
     },
     { names: [`解谜公主是名侦探`], dates: [`2012.08.03`], tags: [], rate: `C` },
 ];
+const data = [...S, ...A, ...B, ...C];
 export default data;
