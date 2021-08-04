@@ -2,14 +2,22 @@
 
 const S: Array<Ani> = [
   {
-    names: [`ARIA The ANIMATION`, `The NATURAL`, `The OVA ARIETTA`, `The ORIGINATION`, `The AVVENIRE`],
-    dates: [`2005.10.05`, `2006.04.02`, `2007.09.21`, `2008.01.07`, `2015.09.26`],
+    names: [
+      `ARIA The ANIMATION`,
+      `The NATURAL`,
+      `The OVA ARIETTA`,
+      `The ORIGINATION`,
+      `The AVVENIRE`,
+      `+ THE CREPUSCOLO`,
+    ],
+    dates: [`2005.10.05`, `2006.04.02`, `2007.09.21`, `2008.01.07`, `2015.09.26`, `2021.03.21`],
     tags: [`favour`],
     rate: `S`,
   },
+  { names: [`Charlotte`], dates: [`2015.09.23`], tags: [`favour`], rate: `S` },
   {
-    names: [`Charlotte`],
-    dates: [`2015.09.23`],
+    names: [`青春猪头少年不会梦到兔女郎学姐`, `剧场版 青春猪头少年不会梦到怀梦美少女`],
+    dates: [`2018.10.03`, `2019.06.15`],
     tags: [`favour`],
     rate: `S`,
   },
@@ -174,8 +182,8 @@ const S: Array<Ani> = [
     rate: `S`,
   },
   {
-    names: [`记录的地平线  2季`],
-    dates: [`2013.10.05`],
+    names: [`记录的地平线`, `第二季`, `圆桌崩坏`],
+    dates: [`2013.10.05`, `2014.10.04`, `2021.01.13`],
     tags: [`favour`],
     rate: `S`,
   },
@@ -204,14 +212,47 @@ const S: Array<Ani> = [
     rate: `S`,
   },
   {
-    names: [`小林家的龙女仆`],
+    names: [`小林家的龙女仆`, `+`],
     dates: [`2017.01.11`],
+    tags: [`favour`],
+    rate: `S`,
+  },
+  {
+    names: [`妖怪アパートの幽雅な日常`],
+    dates: [`2017.07.03`],
     tags: [`favour`],
     rate: `S`,
   },
 ];
 const A: Array<Ani> = [
+  { names: [`天真与闪电`], dates: [`2016.07.04`], tags: [`nice`], rate: `A` },
+  { names: [`刻刻`], dates: [`2018.01.07`], tags: [`nice`], rate: `A` },
+  {
+    names: [`辉夜大小姐想让我告白～天才们的恋爱头脑战～`, `辉夜大小姐想让我告白？`],
+    dates: [`2019.01.02`, `2020.04.11`],
+    tags: [`nice`],
+    rate: `A`,
+  },
   { names: [`樱花任务`], dates: [`2017.04.05`], tags: [`nice`], rate: `A` },
+  { names: [`雏子的笔记`], dates: [`2017.04.07`], tags: [`nice`], rate: `A` },
+  { names: [`龙王的工作！`], dates: [`2018.01.08`], tags: [`nice`], rate: `A` },
+  {
+    names: [`+ 0`, `信長の忍び`, `～伊勢・金ヶ崎篇～`, `～姉川・石山篇～`],
+    dates: [`2016.03.25`, `2016.10.04`, `2017.04.07`, `2018.04.07`],
+    tags: [`nice`],
+    rate: `A`,
+  },
+  {
+    names: [
+      `灵能百分百`,
+      `REIGEN～知られざる奇跡の霊能力者～`,
+      `II`,
+      `第一回霊とか相談所慰安旅行～ココロ満たす癒やしの旅～`,
+    ],
+    dates: [`2016.07.11`, `2018.03.18`, `2019.01.07`, ``],
+    tags: [`nice`],
+    rate: `A`,
+  },
   {
     names: [`紫罗兰永恒花园`, `外伝 -永遠と自動手記人形-`],
     dates: [`2018.01.10`, `2019.09.06`],
@@ -453,13 +494,30 @@ const A: Array<Ani> = [
   },
 ];
 const B: Array<Ani> = [
+  { names: [`小木乃伊到我家`], dates: [`2018.01.11`], tags: [] },
+  {
+    names: [`天元突破红莲螺岩`, `+ 剧场版 红莲篇`, `+ 剧场版 螺岩篇`],
+    dates: [`2007.04.01`, `2008.09.06`, `2009.04.25`],
+    tags: [],
+  },
+  { names: [`昴宿七星`], dates: [`2018.07.05`], tags: [] },
+  { names: [`異世界魔王と召喚少女の奴隷魔術`, `Ω`], dates: [`2018.07.05`, `2021.04.08`], tags: [] },
+  { names: [`うどんの国の金色毛鞠`], dates: [`2016.10.09`], tags: [] },
+  { names: [`皇帝圣印战记`], dates: [`2018.01.05`], tags: [] },
+  { names: [`刀使ノ巫女`], dates: [`2018.01.05`], tags: [] },
+  { names: [`超自然9人组`], dates: [`2016.10.08`], tags: [] },
+  { names: [`MEGALO BOX`, `+`], dates: [`2018.04.05`, `2021.04.04`], tags: [] },
+  { names: [`黑白来看守所`, `2季`], dates: [`2016.10.05`, `2017.01.04`], tags: [] },
+  { names: [`ラーメン大好き小泉さん`], dates: [`2018.01.04`], tags: [] },
+  { names: [`武装少女Machiavellism`], dates: [`2017.04.05`], tags: [] },
   { names: [`お酒は夫婦になってから`], dates: [`2017.10.03`], tags: [] },
+  { names: [`热诚传说～导师的黎明～`, `热诚传说`, `2季`], dates: [`2014.12.30`, `2016.07.03`, `2017.01.08`], tags: [] },
+  { names: [`人马少女的烦恼`], dates: [`2017.07.09`], tags: [] },
   { names: [`潘朵拉之心`], dates: [`2009.04.02`], tags: [] },
   { names: [`うらら迷路帖`], dates: [`2017.01.05`], tags: [] },
   { names: [`爱丽丝与藏六`], dates: [`2017.04.02`], tags: [] },
   { names: [`NEW GAME!`, `OVA`, `!!`], dates: [`2016.07.04`, `2017.04.30`, `2017.07.11`], tags: [] },
   { names: [`猫咪日常`], dates: [`2017.01.08`], tags: [] },
-  { names: [`十二大戦`], dates: [`2017.10.03`], tags: [] },
   { names: [`战斗女子高校`], dates: [`2017.07.02`], tags: [] },
   { names: [`无畏魔女` + `OVA`], dates: [`2016.10.06`, `2017.05.13`], tags: [] },
   { names: [`異世界食堂`], dates: [`2017.07.03`], tags: [] },
@@ -467,7 +525,6 @@ const B: Array<Ani> = [
   { names: [`骑士&魔法`], dates: [`2017.07.02`], tags: [] },
   { names: [`ID-0`], dates: [`2017.04.09`], tags: [] },
   { names: [`Regalia 三圣星`], dates: [`2016.07.07`], tags: [] },
-  { names: [`红伤骑士X`], dates: [`2016.07.06`], tags: [] },
   { names: [`OZMAFIA!!`], dates: [`2016.07.06`], tags: [] },
   {
     names: [`+ 驱魔少年`, `驱魔少年 HALLOW`],
@@ -588,8 +645,8 @@ const B: Array<Ani> = [
     tags: [],
   },
   {
-    names: [`Chaos;HEAD （混沌之脑） + `],
-    dates: [`2008.10.09`],
+    names: [`Chaos;HEAD`, `Chaos;Child`],
+    dates: [`2008.10.09`, `2017.01.11`],
     tags: [],
   },
   {
@@ -755,8 +812,16 @@ const B: Array<Ani> = [
   { names: [`まじっく快斗 +`], dates: [`2010.04.17`], tags: [] },
   { names: [`みなみけ 4季`], dates: [`2007.10.07`], tags: [] },
   {
-    names: [`七つの大罪 (OAD)`, `聖戦の予兆(SP)`, `戒めの復活`, `劇場版 天空の囚われ人`],
-    dates: [`2014.10.05`, `2016.08.28`, `2018.01.06`, `2018.08.18`],
+    names: [
+      `七つの大罪 (OAD)`,
+      `聖戦の予兆(SP)`,
+      `戒めの復活`,
+      `劇場版 天空の囚われ人`,
+      `众神的逆鳞`,
+      `愤怒的审判`,
+      `+ 劇場版 被光诅咒的人们`,
+    ],
+    dates: [`2014.10.05`, `2016.08.28`, `2018.01.06`, `2018.08.18`, `2019.10.09`, `2021.01.06`, `2021.07.02`],
     tags: [],
   },
   { names: [`三人行必有我妹`], dates: [`2012.07.05`], tags: [] },
@@ -965,8 +1030,8 @@ const B: Array<Ani> = [
   { names: [`帰宅部活動記録`], dates: [`2013.07.04`], tags: [] },
   { names: [`干支魂`], dates: [`2015.04.09`], tags: [] },
   {
-    names: [`干物妹！うまるちゃん + OVA 小埋、再一次！`],
-    dates: [`2015.07.08`],
+    names: [`干物妹！うまるちゃん`, `OVA`, `R`],
+    dates: [`2015.07.08`, `2015.10.19`, `2017.10.08`],
     tags: [],
   },
   { names: [`幸运☆星`], dates: [`2007.04.08`], tags: [] },
@@ -1336,21 +1401,37 @@ const B: Array<Ani> = [
   { names: [`盾の勇者の成り上がり`], dates: [`2019.01.09`], tags: [] },
 ];
 const C: Array<Ani> = [
+  { names: [`重神机潘多拉`], dates: [`2018.03.29`], tags: [] },
+  { names: [`叛逆性百万亚瑟王`], dates: [`2018.10.25`, `2019.04.04`], tags: [] },
+  { names: [`十二大戦`], dates: [`2017.10.03`], tags: [] },
+  { names: [`Luck & Logic`, `+ Hina Logic ~from Luck & Logic~`], dates: [`2016.01.09`, `2017.06.24`], tags: [] },
+  { names: [`红伤骑士X`], dates: [`2016.07.06`], tags: [] },
+];
+
+const D: Array<Ani> = [
   {
     names: [`Q弟侦探因幡`],
     dates: [`2013.01.04`],
     tags: [`ignore`],
-    rate: `C`,
+    rate: `D`,
   },
   {
     names: [`吸血鬼福尔摩斯`],
     dates: [`2015.04.04`],
     tags: [`ignore`],
-    rate: `C`,
+    rate: `D`,
   },
-  { names: [`解谜公主是名侦探`], dates: [`2012.08.03`], tags: [], rate: `C` },
+  { names: [`解谜公主是名侦探`], dates: [`2012.08.03`], tags: [`ignore`], rate: `C` },
 ];
 
-const data: Array<Ani> = [...S, ...A, ...B, ...C];
+const _: Array<Ani> = [
+  { names: [`海天使的灯火`], dates: [`2017.07.12`], tags: [], rate: `` },
+  { names: [`徒然喜欢你`], dates: [`2017.07.04`], tags: [], rate: `` },
+  { names: [`GAMERS电玩咖！`], dates: [`2017.07.13`], tags: [], rate: `` },
+  { names: [`Classica Loid`], dates: [`2016.10.08`], tags: [], rate: `` },
+  { names: [`Code:Realize ～创世的姬君～`], dates: [`2017.10.07`], tags: [], rate: `` },
+];
+
+const data: Array<Ani> = [...S, ...A, ...B, ...C, ...D];
 
 export default data;
